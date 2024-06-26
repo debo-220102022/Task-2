@@ -73,19 +73,19 @@ nav .menu {
   background: rgba(0, 0, 0, 0.4);
 }
 .img.home {
-  background-image: url('background-home.jpg'); /* replace with your image path */
+  background-image: url('carousel-img6.jpg'); /* replace with your image path */
 }
 .img.about {
-  background-image: url('background-about.jpg'); /* replace with your image path */
+  background-image: url('pexels-danielabsi-952670.jpg'); /* replace with your image path */
 }
 .img.services {
-  background-image: url('background-services.jpg'); /* replace with your image path */
+  background-image: url('pexels-felixmittermeier-956999.jpg'); /* replace with your image path */
 }
 .img.contact {
-  background-image: url('background-contact.jpg'); /* replace with your image path */
+  background-image: url('pexels-pixabay-276514.jpg'); /* replace with your image path */
 }
 .img.feedback {
-  background-image: url('background-feedback.jpg'); /* replace with your image path */
+  background-image: url('pexels-steve-1509534.jpg'); /* replace with your image path */
 }
 .center {
   position: absolute;
