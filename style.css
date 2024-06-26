@@ -151,6 +151,25 @@ nav .menu .menu-icon {
 }
 
 @media (max-width: 992px) {
+  nav .menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav .menu ul {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  nav .menu ul.active {
+    display: flex;
+  }
+
+  nav .menu .menu-icon {
+    display: block;
+  }
+
   .center .title {
     font-size: 35px;
   }
@@ -167,16 +186,12 @@ nav .menu .menu-icon {
 
 @media (max-width: 768px) {
   nav .menu ul {
-    flex-direction: column;
     display: none;
   }
 
   nav .menu ul.active {
     display: flex;
-  }
-
-  nav .menu .menu-icon {
-    display: block;
+    flex-direction: column;
   }
 
   .center .title {
@@ -213,19 +228,6 @@ nav .menu .menu-icon {
 }
 
 @media (max-width: 448px) {
-  nav .menu ul {
-    flex-direction: column;
-    display: none;
-  }
-
-  nav .menu ul.active {
-    display: flex;
-  }
-
-  nav .menu .menu-icon {
-    display: block;
-  }
-
   .center .title {
     font-size: 20px;
   }
