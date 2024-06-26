@@ -122,7 +122,50 @@ nav .menu .menu-icon {
   color: #fff;
 }
 
-@media (max-width: 448px) {
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  nav .menu {
+    padding: 0 10px;
+  }
+
+  nav .menu ul li {
+    margin-left: 15px;
+  }
+
+  nav .menu ul li a {
+    font-size: 16px;
+  }
+
+  .center .title {
+    font-size: 40px;
+  }
+
+  .center .sub_title {
+    font-size: 22px;
+  }
+
+  .center .btns button {
+    font-size: 18px;
+    padding: 8px 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .center .title {
+    font-size: 35px;
+  }
+
+  .center .sub_title {
+    font-size: 20px;
+  }
+
+  .center .btns button {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 768px) {
   nav .menu ul {
     flex-direction: column;
     display: none;
@@ -146,19 +189,72 @@ nav .menu .menu-icon {
 
   .center .btns button {
     font-size: 15px;
+    padding: 7px 18px;
   }
 }
 
-@media (min-width: 480px) {
+@media (max-width: 576px) {
+  nav .menu .logo a {
+    font-size: 24px;
+  }
+
   .center .title {
     font-size: 25px;
   }
 
   .center .sub_title {
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  .center .btns button {
+    font-size: 14px;
+    padding: 6px 15px;
+  }
+}
+
+@media (max-width: 448px) {
+  nav .menu ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  nav .menu ul.active {
+    display: flex;
+  }
+
+  nav .menu .menu-icon {
+    display: block;
+  }
+
+  .center .title {
+    font-size: 20px;
+  }
+
+  .center .sub_title {
+    font-size: 14px;
   }
 
   .center .btns button {
     font-size: 12px;
+    padding: 5px 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  nav .menu .logo a {
+    font-size: 20px;
+  }
+
+  .center .title {
+    font-size: 18px;
+  }
+
+  .center .sub_title {
+    font-size: 12px;
+  }
+
+  .center .btns button {
+    font-size: 10px;
+    padding: 4px 10px;
   }
 }
