@@ -128,6 +128,31 @@ nav .menu {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav .menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #1b1b1b;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    transition: all 0.3s ease;
+  }
+  nav .menu ul.active {
+    height: 200px;
+  }
+  nav .menu ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  nav .menu-icon {
+    display: block;
+  }
+}
 @media (max-width: 768px) {
   .menu ul {
     display: none;
