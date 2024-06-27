@@ -8,46 +8,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <div class="menu">
-      <div class="logo">
-        <a href="index.html">Infra Tech</a>
-      </div>
-      <ul>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="forum.html">Forum</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
-      <div class="menu-icon" onclick="toggleMenu()">
-        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
+  <?php include 'navbar.html'; ?>
+  <div class="img home">
+    <div class="center">
+      <div class="title">Login</div>
+      <div class="sub_title">Access your account</div>
+      <div class="btns">
+        <button>Sign In</button>
+        <button>Contact Us</button>
       </div>
     </div>
-  </nav>
-
-  <div class="content">
-    <h1>Login</h1>
-    <form>
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-      </div>
-      <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-      </div>
-      <div>
-        <button type="submit">Login</button>
-      </div>
-    </form>
   </div>
-
-  <script>
-    function toggleMenu() {
-      const menu = document.querySelector('nav .menu ul');
-      menu.classList.toggle('active');
-    }
-  </script>
 </body>
 </html>
