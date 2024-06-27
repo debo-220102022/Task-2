@@ -8,24 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <div class="menu">
-      <div class="logo">
-        <a href="index.html">Infra Tech</a>
-      </div>
-      <ul>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="forum.html">Forum</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
-      <div class="menu-icon" onclick="toggleMenu()">
-        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
-      </div>
-    </div>
-  </nav>
-
+  <?php include 'navbar.html'; ?>
   <div class="img home">
     <div class="center">
       <div class="title">Welcome to Infra Tech</div>
@@ -36,13 +19,6 @@
       </div>
     </div>
   </div>
-
-  <script>
-    function toggleMenu() {
-      const menu = document.querySelector('nav .menu ul');
-      menu.classList.toggle('active');
-    }
-  </script>
 </body>
 </html>
 
