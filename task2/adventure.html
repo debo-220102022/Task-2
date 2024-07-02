@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<h lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flick</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="task2.css"/>
+</head>
+<body>
+    <button id="menu"><i class="fas fa-bars"></i></button>
+    <button id="search"><i class="fa-brands fa-searchengin"></i></button>
+    <div id="search-box" class="search-box">
+        <input type="text" placeholder="Search Movies..." />
+        <button class="search-button"><span class="arrow">&#10148;</span></button>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="welcome.html">Home</a></li>
+            <li><div id="category">
+            <label for="categories">Categories</label>
+            <select id="categories">
+                <option value="action">Action</option>
+                <option value="adventure">Adventure</option>
+                <option value="comedy">Comedy</option>
+                <option value="horror">Horror</option>
+                <option value="mystery">Mystery</option>
+                <option value="sports">Sports</option>
+            </select>
+            </div></li>
+            <li><a href="task2.html">Top Movies</a></li>
+            <li><a href="latest.html">Latest Movies <span id="new">[NEW]</span></a></li>
+            <li></li>
+            <li id="copyright">&copy; Debobrata Das</li>
+        </ul>
+    </nav>
+    <div class="movie">
+        <div id="a1">
+        <h1>Junglee</h1>
+        <div class="movie">
+            <img src="pics/Junglee.jpg"/>
+            <p id="description">
+                The film is about a veterinarian named Raj Nair (Vidyut Jammwal) who returns to his father's elephant reserve in Odisha after ten years and faces off against an international poaching ring. The film also features Pooja Sawant, Asha Bhat, Atul Kulkarni, Akshay Oberoi, and elephants Didi and Bhola. It was released on March 29, 2019 and received praise for its cinematography and action sequences.
+            </p>
+        </div>
+        </div>
+        <div id="a5">
+            <h1>Raazi</h1>
+            <div class="movie">
+                <img src="pics/Raazi.jpg"/>
+                <p id="description">
+                    Raazi is a 2018 Hindi-language mystery and thriller film about a young Indian woman who becomes a spy 
+                    in Pakistan during the 1971 Indo-Pakistani War.
+                    </p>
+                    </div>
+        </div>
+        
+    </div>
+    <script src="task2.js">
+    </script>
+</body>
+</html>
