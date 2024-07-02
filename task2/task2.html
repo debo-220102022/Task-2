@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Flick</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="task2.css"/>
+</head>
+<body>
+    <button id="menu"><i class="fas fa-bars"></i></button>
+    <button id="search"><i class="fa-brands fa-searchengin"></i></button>
+    <div id="search-box" class="search-box">
+        <input type="text" placeholder="Search Movies..." />
+        <button class="search-button"><span class="arrow">&#10148;</span></button>
+    </div>
+    <nav>
+        <ul>
+        <li><a href="welcome.html">Home</a></li>
+        <li><div id="category">
+        <label for="categories">Categories</label>
+        <select id="categories">
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+            <option value="mystery">Mystery</option>
+            <option value="sports">Sports</option>
+        </select>
+        </div></li>
+        <li><a href="task2.html">Top Movies</a></li>
+        <li><a href="latest.html">Latest Movies <span id="new">[NEW]</span></a></li>
+        <li></li>
+        <li id="copyright">&copy; Debobrata Das</li>
+        </ul>
+    </nav>
+    <div class="Movies">
+        <div id="a1">
+        <h1>Maidaan</h1>
+        <div class="movies-display">
+            <img src="pics/Maidaan.jpeg"/>
+            <p id="description">
+                Maidaan is a 2024 Hindi-language biographical 
+                sports drama film about the life of Syed Abdul Rahim, 
+                a pioneering football coach and manager in India during 
+                the 1950s and 1960s.
+            </p>
+        </div>
+        </div>
+        <div id="a2">
+        <h1>chhichhore</h1>
+                <div class="movies-display">
+                    <img src="pics/chhichhore.jpg"/>
+                    <p id="description">
+                        Chhichhore is a 2019 Bollywood movie about a 
+                        group of engineering students who go from being 
+                        losers to choosers. The movie is told through the 
+                        lens of Anirudh (Sushant Singh Rajput), a middle-aged 
+                        man who reminisces about his college days with his 
+                        friends after a tragic incident. Anirudh believes 
+                        that sharing stories from his college years can 
+                        help his son, Raghav (who is played by a child actor), 
+                        recover mentally after attempting suicide. The movie 
+                        is a mix of Student Of The Year, 3 Idiots, and other 
+                        campus films, and it deals with serious issues like 
+                        student suicide and communication. 
+                    </p>
+                </div>
+            </div>
+            <div id="a3">
+                <h1>Badhaai Do</h1>
+                <div class="movies-display">
+                    <img src="pics/Badhaai Do.jpeg"/>
+                    <p id="description">
+                        Badhaai Do is a 2022 Bollywood comedy-drama film about a gay man and a 
+                        lesbian woman who enter into a marriage of convenience to appease their 
+                        families' pressure to get married.
+                    </p>
+                </div>
+            </div>
+            <div id="a4">
+                <h1>Junglee</h1>
+                <div class="movies-display">
+                    <img src="pics/Junglee.jpg">
+                    The film is about a veterinarian named Raj Nair (Vidyut Jammwal) 
+                    who returns to his father's elephant reserve in Odisha after 
+                    ten years and faces off against an international poaching ring. 
+                    The film also features Pooja Sawant, Asha Bhat, Atul Kulkarni, 
+                    Akshay Oberoi, and elephants Didi and Bhola. It was released on 
+                    March 29, 2019 and received praise for its cinematography and 
+                    action sequences.
+                    </p>
+                </div> 
+            </div>
+            <div id="a5">
+                <h1>Crew</h1>
+                <div class="movies-display">
+                    <img src="pics/Crew.jpg"/>
+                    <p id="description">
+                        Crew is a 2024 Indian Hindi-language heist comedy film directed by Rajesh A Krishnan 
+                        and written by Nidhi Mehra and Mehul Suri. Produced by Ekta Kapoor, Rhea Kapoor, Anil Kapoor, 
+                        and Digvijay Purohit under Balaji Motion Pictures and Anil Kapoor Films & Communication Network, 
+                        it stars Tabu, Kareena Kapoor Khan and Kriti Sanon with Diljit Dosanjh and Kapil Sharma in supporting roles. 
+                        In the film, three air hostesses become involved in a gold smuggling operation.
+                        </p>
+                        </div>
+            </div>
+            <div id="a6">
+                <h1>Raazi</h1>
+                <div class="movies-display">
+                    <img src="pics/Raazi.jpg"/>
+                    <p id="description">
+                        Raazi is a 2018 Hindi-language mystery and thriller film about a young Indian woman who becomes a spy 
+                        in Pakistan during the 1971 Indo-Pakistani War.
+                    </p>
+            </div>
+        </div>
+        <script src="task2.js">
+        </script>
+    </body>
+</html>
